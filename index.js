@@ -6,7 +6,6 @@ const productRoute = require('./routes/product.route');
 const dotenv = require('dotenv');
 dotenv.config();
 //importing product model
-//importing product model
 const product=require('./models/product.model');
 //middleware to convert the json
 app.use(express.json());
